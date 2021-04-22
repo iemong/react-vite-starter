@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import logo from '~/assets/images/logo.svg'
+import styles from './app.module.css'
 
 const App = (): JSX.Element => {
     const [count, setCount] = useState(0)
 
     return (
         <div className="text-center">
-            <header className="bg-blue-500 min-h-screen flex flex-col items-center justify-center text-base text-white">
+            <header className={styles.header}>
                 <img
                     src={logo}
                     className="h-96 pointer-events-none"
@@ -14,7 +15,10 @@ const App = (): JSX.Element => {
                 />
                 <p>Hello Vite + React!</p>
                 <p>
-                    <button onClick={() => setCount((count) => count + 1)}>
+                    <button
+                        className={styles.button}
+                        onClick={() => setCount((count) => count + 1)}
+                    >
                         count is: {count}
                     </button>
                 </p>
