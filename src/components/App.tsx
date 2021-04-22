@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import logo from '~/assets/images/logo.svg'
 import styles from './app.module.css'
+import Button from '~/components/atoms/Button'
 
 const App = (): JSX.Element => {
     const [count, setCount] = useState(0)
@@ -15,12 +16,9 @@ const App = (): JSX.Element => {
                 />
                 <p>Hello Vite + React!</p>
                 <p>
-                    <button
-                        className={styles.button}
-                        onClick={() => setCount((count) => count + 1)}
-                    >
+                    <Button onClick={() => setCount((count) => count + 1)}>
                         count is: {count}
-                    </button>
+                    </Button>
                 </p>
                 <p>
                     Edit <code>App.tsx</code> and save to test HMR updates.
