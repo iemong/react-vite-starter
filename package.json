@@ -7,7 +7,8 @@
         "serve": "vite preview",
         "lint": "eslint --ext .tsx,.ts --ignore-path .gitignore .",
         "prettier": "npx prettier --write .",
-        "test": "jest"
+        "test": "jest",
+        "tcm": "tcm -o types/styles src"
     },
     "dependencies": {
         "react": "17.0.2",
@@ -35,6 +36,7 @@
         "react-use": "17.2.3",
         "tailwindcss": "2.1.1",
         "ts-jest": "26.5.5",
+        "typed-css-modules": "^0.6.7",
         "typescript": "4.2.4",
         "vite": "2.2.1"
     },
