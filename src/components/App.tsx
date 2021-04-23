@@ -2,9 +2,17 @@ import React, { useState } from 'react'
 import logo from '~/assets/images/logo.svg'
 import styles from './app.module.css'
 import Button from '~/components/atoms/Button'
+import { useRecoilState, useRecoilValue } from 'recoil'
+import { charCountState, textState } from '~/recoil/atoms/text'
 
 const App = (): JSX.Element => {
     const [count, setCount] = useState(0)
+    const [text, setText] = useRecoilState(textState)
+    const textLength = useRecoilValue(charCountState)
+
+    const handleChangeText = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setText(event.target.value)
+    }
 
     return (
         <div className="text-center">
@@ -20,28 +28,15 @@ const App = (): JSX.Element => {
                         count is: {count}
                     </Button>
                 </p>
-                <p>
-                    Edit <code>App.tsx</code> and save to test HMR updates.
-                </p>
-                <p>
-                    <a
-                        className="text-blue"
-                        href="https://reactjs.org"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Learn React
-                    </a>
-                    {' | '}
-                    <a
-                        className="App-link"
-                        href="https://vitejs.dev/guide/features.html"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Vite Docs
-                    </a>
-                </p>
+                <div>
+                    <input
+                        type="text"
+                        value={text}
+                        onChange={handleChangeText}
+                        className="text-black"
+                    />
+                    <p>Character Count: {textLength}</p>
+                </div>
             </header>
         </div>
     )
