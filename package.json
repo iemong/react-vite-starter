@@ -36,7 +36,7 @@
         "postcss": "8.2.13",
         "postcss-preset-env": "6.7.0",
         "prettier": "2.2.1",
-        "react-use": "17.2.3",
+        "react-use": "17.2.4",
         "tailwindcss": "2.1.1",
         "ts-jest": "26.5.5",
         "typed-css-modules": "0.6.7",
