@@ -5,7 +5,7 @@
         "dev": "vite",
         "build": "tsc && vite build",
         "serve": "vite preview",
-        "lint": "eslint --ext .tsx,.ts --ignore-path .gitignore .",
+        "lint": "eslint --ext .tsx,.ts --ignore-path .eslintignore .",
         "prettier": "npx prettier --write .",
         "test": "jest",
         "tcm": "tcm -o types/styles src"
