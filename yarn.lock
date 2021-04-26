@@ -785,7 +785,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-router-dom@^5.1.7":
+"@types/react-router-dom@5.1.7":
   version "5.1.7"
   resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-5.1.7.tgz#a126d9ea76079ffbbdb0d9225073eb5797ab7271"
   integrity sha512-D5mHD6TbdV/DNHYsnwBTv+y73ei+mMjrkGrla86HthE4/PVvL1J94Bu3qABU+COXzpL23T1EZapVVpwHuBXiUg==
@@ -4929,7 +4929,7 @@ react-refresh@^0.9.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.9.0.tgz#71863337adc3e5c2f8a6bfddd12ae3bfe32aafbf"
   integrity sha512-Gvzk7OZpiqKSkxsQvO/mbTN1poglhmAV7gR/DdIrRrSMXraRQQlfikRJOr3Nb9GTMPC5kof948Zy6jJZIFtDvQ==
 
-react-router-dom@^5.2.0:
+react-router-dom@5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-5.2.0.tgz#9e65a4d0c45e13289e66c7b17c7e175d0ea15662"
   integrity sha512-gxAmfylo2QUjcwxI63RhQ5G85Qqt4voZpUXSEqCwykV0baaOTQDR1f0PmY8AELqIyVc0NEZUj0Gov5lNGcXgsA==
@@ -5034,7 +5034,7 @@ readdirp@~3.5.0:
   dependencies:
     picomatch "^2.2.1"
 
-recoil@^0.2.0:
+recoil@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/recoil/-/recoil-0.2.0.tgz#69344b5bec3129272560d8d9d6001ada3ee4d80c"
   integrity sha512-VOJfYVQ3VgmfS7L5tV9QdOR+AJhvll8yGr1+3nJPCqADulImuScGZ2sJtejPps3zfTu/o98y5kO4lje8Tx6XHw==
@@ -5978,7 +5978,7 @@ type-fest@^0.8.1:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
 
-typed-css-modules@^0.6.7:
+typed-css-modules@0.6.7:
   version "0.6.7"
   resolved "https://registry.yarnpkg.com/typed-css-modules/-/typed-css-modules-0.6.7.tgz#0d3f2408fc56e103f8f55f145a5af667e1109659"
   integrity sha512-MoajquYWzDM6uGSQ35gmIleoISOd/Czzonofq71QdAC5Uvq6b9o4oN8NIMVB030rATvM7qZ8Ng2OVqlUmU/ZPQ==
