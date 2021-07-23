@@ -41,7 +41,7 @@
         "ts-jest": "27.0.4",
         "typed-css-modules": "0.7.0",
         "typescript": "4.3.5",
-        "vite": "2.4.2"
+        "vite": "2.4.3"
     },
     "license": "MIT"
 }
