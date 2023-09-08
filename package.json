@@ -33,7 +33,7 @@
         "eslint-plugin-react": "7.29.3",
         "eslint-plugin-react-hooks": "4.3.0",
         "jest": "27.5.1",
-        "postcss": "8.4.21",
+        "postcss": "8.4.29",
         "postcss-preset-env": "7.0.1",
         "prettier": "2.5.1",
         "react-use": "17.3.2",
