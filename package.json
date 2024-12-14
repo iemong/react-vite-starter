@@ -30,7 +30,7 @@
         "eslint-plugin-import": "2.31.0",
         "eslint-plugin-jsx-a11y": "6.10.2",
         "eslint-plugin-prettier": "4.2.1",
-        "eslint-plugin-react": "7.34.1",
+        "eslint-plugin-react": "7.37.2",
         "eslint-plugin-react-hooks": "4.3.0",
         "jest": "27.5.1",
         "postcss": "8.4.49",
